@@ -35,6 +35,7 @@ body{
 .dropdown__container{
     border: 1px solid white;
     padding: .4rem;
+    border-radius: 4px;
 }
 .Signin__button{
     background-color: #dc030f;
@@ -46,4 +47,29 @@ body{
 .navbar__nav__items{
     display: flex;
     gap: 10px;
+}
+
+@media(min-width: 768px){
+
+}
+@media(min-width: 1024px){
+    .navbar{
+        padding: 2% 5%;
+    }
+    .navbar__brand{
+        width: 180px;
+    }
+    .Signin__button{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .dropdown__container{
+        padding: 10px 5px;
+    }
+    .navbar__nav__items{
+        gap: 30px;
+    }
+}
+@media(min-width: 1254px){
+    
 }
