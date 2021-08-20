@@ -10,6 +10,9 @@ body{
 }
 .navbar
 {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 2% 3%;
@@ -47,6 +50,17 @@ body{
 .navbar__nav__items{
     display: flex;
     gap: 10px;
+}
+
+.main__section__bg__image__cointaner{
+    width: 100%;
+    height: 200px;
+}
+
+.main__section__bg__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media(min-width: 768px){
